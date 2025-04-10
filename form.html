@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>nit tricht student council</title>
+  </head>
+  <body>
+    <header>
+      <h1>google form for gym registration</h1>
+    </header>
+    <main>
+      <form action="/action.php">
+        <p>
+            <h3>name</h3>
+        </p>
+        <input type="text" placeholder="username" />
+        <br />
+        <p>
+            <h3>password</h3>
+        </p>
+        <input type="password" placeholder="password" />
+        <br>
+        <br>
+        <p>
+            <h3>class</h3>
+        </p>
+        <label for="102" >
+        <input type="radio" value="class XI" name="class" id="102"> class XI
+        <br>
+        </label >
+        <label for="103">
+        <input type="radio" value="class XII" name ="class" id="103"> class XII
+        </label>
+        <br>
+        <p>
+            <h3>subjects</h3>
+        </p>
+
+        <label for="math">
+            <input type="checkbox" value="math" name="subject" id="105">math
+        </label>
+        <label for="phy">
+            <input type="checkbox" value="phy" name="subject" id="106">phy
+
+        </label>
+        <label for="cs">
+            <input type="checkbox" value="cs" name="subject" id="107">cs          
+        </label>
+        <br>
+        <h3>location</h3>
+        select your city
+        <!-- <p>select your city</p> -->
+
+        <select name="city">
+            <option value="delhi">delhi</option>
+            <option value="mumbai">mumbai</option>
+            <option value="kolkata">kolkata</option>
+            <option value="faridabad">faridabad</option>
+
+        </select>
+
+        <br>
+        <br>
+        <h3>feedback</h3>
+
+        <textarea name="feedback" id="101" placeholder="please give your review after using this form" rows="5" cols="50">FeedBack</textarea>
+        <br>
+        <input type="submit" value="submit">
+      </form>
+    </main>
+  </body>
+</html>
